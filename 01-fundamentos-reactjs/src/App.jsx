@@ -1,9 +1,10 @@
+import {Header} from "./components/Header";
+import {Sidebar} from "./components/Sidebar";
+import { Post } from "./components/Post";
+
 import { useState } from 'react'
-import { Post } from "./post.jsx";
 import './global.css'
 import styles from './app.module.css'
-import {Header} from "./components/Header.jsx";
-import {Sidebar} from "./components/Sidebar.jsx";
 
 export function App() {
     const [count, setCount] = useState(0)
